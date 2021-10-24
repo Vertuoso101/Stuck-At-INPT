@@ -1,6 +1,6 @@
 const express = require('express');
-const {createUser, getUser, follow, unfollow, followCheck, unfollowCheck} = require('../comtrollers/user');
-const {signIn, logOut, requireSignIng} = require('../comtrollers/auth');
+const {createUser, getUser, follow, unfollow, followCheck, unfollowCheck} = require('../controllers/user');
+const {signIn, logOut, requireSignIng} = require('../controllers/auth');
 const router = express.Router();
 
 //here are the user routes and the requirment are clear in thier path to execute them!
