@@ -1,6 +1,6 @@
 const express = require("express");
-const {getAllPosts, createPost, getMyPosts, getSpecificUserPost, deletePost, isOwner, like, unlike, deleteComment, addComment} =  require("../comtrollers/post");
-const {requireSignIng} = require("../comtrollers/auth");
+const {getAllPosts, createPost, getMyPosts, getSpecificUserPost, deletePost, isOwner, like, unlike, deleteComment, addComment} =  require("../controllers/post");
+const {requireSignIng} = require("../controllers/auth");
 const router = express.Router();
 
 
